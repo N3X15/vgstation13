@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "compiled": 1570590098.2731476,
+  "compiled": 1571539185.3632538,
   "voices": {
     "fem": {
       "id": "us-clb",
@@ -30,7 +30,10 @@
   "words": {
     ",": {
       "wordlen": 1,
-      "files": {},
+      "files": {
+        "fem": "sound/vox/,.wav",
+        "mas": "sound/vox/,.wav"
+      },
       "flags": [
         "old-vox"
       ],
@@ -40,7 +43,10 @@
     },
     ".": {
       "wordlen": 1,
-      "files": {},
+      "files": {
+        "fem": "sound/vox/..wav",
+        "mas": "sound/vox/..wav"
+      },
       "flags": [
         "old-vox"
       ],
@@ -171,6 +177,39 @@
         "abductions"
       ]
     },
+    "abort": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/abort.ogg",
+        "mas": "sound/vox_mas/abort.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "abort"
+      ]
+    },
+    "aborted": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/aborted.ogg",
+        "mas": "sound/vox_mas/aborted.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "aborted"
+      ]
+    },
+    "aborting": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/aborting.ogg",
+        "mas": "sound/vox_mas/aborting.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "aborting"
+      ]
+    },
     "abortion": {
       "wordlen": 1,
       "files": {
@@ -191,6 +230,17 @@
       "flags": [],
       "phrase": [
         "abortions"
+      ]
+    },
+    "aborts": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/aborts.ogg",
+        "mas": "sound/vox_mas/aborts.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "aborts"
       ]
     },
     "about": {
@@ -270,6 +320,17 @@
         "abused"
       ]
     },
+    "abuses": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/abuses.ogg",
+        "mas": "sound/vox_mas/abuses.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "abuses"
+      ]
+    },
     "abusing": {
       "wordlen": 1,
       "files": {
@@ -325,6 +386,39 @@
         "access"
       ]
     },
+    "accessed": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/accessed.ogg",
+        "mas": "sound/vox_mas/accessed.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "accessed"
+      ]
+    },
+    "accesses": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/accesses.ogg",
+        "mas": "sound/vox_mas/accesses.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "accesses"
+      ]
+    },
+    "accessing": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/accessing.ogg",
+        "mas": "sound/vox_mas/accessing.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "accessing"
+      ]
+    },
     "acknowledge": {
       "wordlen": 1,
       "files": {
@@ -347,6 +441,17 @@
         "acknowledged"
       ]
     },
+    "acquire": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/acquire.ogg",
+        "mas": "sound/vox_mas/acquire.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "acquire"
+      ]
+    },
     "acquired": {
       "wordlen": 1,
       "files": {
@@ -358,6 +463,28 @@
         "acquired"
       ]
     },
+    "acquires": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/acquires.ogg",
+        "mas": "sound/vox_mas/acquires.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "acquires"
+      ]
+    },
+    "acquiring": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/acquiring.ogg",
+        "mas": "sound/vox_mas/acquiring.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "acquiring"
+      ]
+    },
     "acquisition": {
       "wordlen": 1,
       "files": {
@@ -367,6 +494,17 @@
       "flags": [],
       "phrase": [
         "acquisition"
+      ]
+    },
+    "acquisitions": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/acquisitions.ogg",
+        "mas": "sound/vox_mas/acquisitions.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "acquisitions"
       ]
     },
     "across": {
@@ -391,6 +529,28 @@
         "act"
       ]
     },
+    "acted": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/acted.ogg",
+        "mas": "sound/vox_mas/acted.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "acted"
+      ]
+    },
+    "acting": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/acting.ogg",
+        "mas": "sound/vox_mas/acting.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "acting"
+      ]
+    },
     "activate": {
       "wordlen": 1,
       "files": {
@@ -413,6 +573,39 @@
         "activated"
       ]
     },
+    "activates": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/activates.ogg",
+        "mas": "sound/vox_mas/activates.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "activates"
+      ]
+    },
+    "activating": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/activating.ogg",
+        "mas": "sound/vox_mas/activating.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "activating"
+      ]
+    },
+    "activities": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/activities.ogg",
+        "mas": "sound/vox_mas/activities.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "activities"
+      ]
+    },
     "activity": {
       "wordlen": 1,
       "files": {
@@ -424,6 +617,17 @@
         "activity"
       ]
     },
+    "acts": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/acts.ogg",
+        "mas": "sound/vox_mas/acts.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "acts"
+      ]
+    },
     "add": {
       "wordlen": 1,
       "files": {
@@ -433,6 +637,28 @@
       "flags": [],
       "phrase": [
         "add"
+      ]
+    },
+    "added": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/added.ogg",
+        "mas": "sound/vox_mas/added.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "added"
+      ]
+    },
+    "adds": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/adds.ogg",
+        "mas": "sound/vox_mas/adds.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "adds"
       ]
     },
     "adios": {
@@ -1319,6 +1545,28 @@
         "at"
       ]
     },
+    "atmosphere": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/atmosphere.ogg",
+        "mas": "sound/vox_mas/atmosphere.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "atmosphere"
+      ]
+    },
+    "atmospheres": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/atmospheres.ogg",
+        "mas": "sound/vox_mas/atmospheres.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "atmospheres"
+      ]
+    },
     "atmospheric": {
       "wordlen": 1,
       "files": {
@@ -2135,7 +2383,10 @@
     },
     "bizwarn": {
       "wordlen": 1,
-      "files": {},
+      "files": {
+        "fem": "sound/vox/bizwarn.wav",
+        "mas": "sound/vox/bizwarn.wav"
+      },
       "flags": [
         "old-vox"
       ],
@@ -2266,7 +2517,10 @@
     },
     "bloop": {
       "wordlen": 1,
-      "files": {},
+      "files": {
+        "fem": "sound/vox/bloop.wav",
+        "mas": "sound/vox/bloop.wav"
+      },
       "flags": [
         "old-vox"
       ],
@@ -2826,7 +3080,10 @@
     },
     "buzwarn": {
       "wordlen": 1,
-      "files": {},
+      "files": {
+        "fem": "sound/vox/buzwarn.wav",
+        "mas": "sound/vox/buzwarn.wav"
+      },
       "flags": [
         "old-vox"
       ],
@@ -3937,6 +4194,39 @@
         "cocaine"
       ]
     },
+    "cocoon": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/cocoon.ogg",
+        "mas": "sound/vox_mas/cocoon.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "cocoon"
+      ]
+    },
+    "cocooned": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/cocooned.ogg",
+        "mas": "sound/vox_mas/cocooned.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "cocooned"
+      ]
+    },
+    "cocoons": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/cocoons.ogg",
+        "mas": "sound/vox_mas/cocoons.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "cocoons"
+      ]
+    },
     "code": {
       "wordlen": 1,
       "files": {
@@ -4518,6 +4808,28 @@
       "flags": [],
       "phrase": [
         "coolest"
+      ]
+    },
+    "coordinate": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/coordinate.ogg",
+        "mas": "sound/vox_mas/coordinate.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "coordinate"
+      ]
+    },
+    "coordinates": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/coordinates.ogg",
+        "mas": "sound/vox_mas/coordinates.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "coordinates"
       ]
     },
     "core": {
@@ -5143,7 +5455,10 @@
     },
     "dadeda": {
       "wordlen": 1,
-      "files": {},
+      "files": {
+        "fem": "sound/vox/dadeda.wav",
+        "mas": "sound/vox/dadeda.wav"
+      },
       "flags": [
         "old-vox"
       ],
@@ -6484,7 +6799,10 @@
     },
     "doop": {
       "wordlen": 1,
-      "files": {},
+      "files": {
+        "fem": "sound/vox/doop.wav",
+        "mas": "sound/vox/doop.wav"
+      },
       "flags": [
         "old-vox"
       ],
@@ -6743,6 +7061,28 @@
       "flags": [],
       "phrase": [
         "effect"
+      ]
+    },
+    "egg": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/egg.ogg",
+        "mas": "sound/vox_mas/egg.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "egg"
+      ]
+    },
+    "eggs": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/eggs.ogg",
+        "mas": "sound/vox_mas/eggs.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "eggs"
       ]
     },
     "egress": {
@@ -7990,6 +8330,17 @@
         "fast"
       ]
     },
+    "fat": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/fat.ogg",
+        "mas": "sound/vox_mas/fat.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "fat"
+      ]
+    },
     "father": {
       "wordlen": 1,
       "files": {
@@ -7999,6 +8350,17 @@
       "flags": [],
       "phrase": [
         "father"
+      ]
+    },
+    "fats": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/fats.ogg",
+        "mas": "sound/vox_mas/fats.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "fats"
       ]
     },
     "fauna": {
@@ -9232,6 +9594,17 @@
         "ghosts"
       ]
     },
+    "giant": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/giant.ogg",
+        "mas": "sound/vox_mas/giant.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "giant"
+      ]
+    },
     "gibbed": {
       "wordlen": 1,
       "files": {
@@ -10048,6 +10421,50 @@
         "has"
       ]
     },
+    "hate": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/hate.ogg",
+        "mas": "sound/vox_mas/hate.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "hate"
+      ]
+    },
+    "hated": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/hated.ogg",
+        "mas": "sound/vox_mas/hated.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "hated"
+      ]
+    },
+    "hates": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/hates.ogg",
+        "mas": "sound/vox_mas/hates.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "hates"
+      ]
+    },
+    "hating": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/hating.ogg",
+        "mas": "sound/vox_mas/hating.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "hating"
+      ]
+    },
     "have": {
       "wordlen": 1,
       "files": {
@@ -10764,7 +11181,7 @@
       },
       "flags": [],
       "phrase": [
-        "I."
+        "eye"
       ]
     },
     "iaa": {
@@ -11660,6 +12077,28 @@
         "kits"
       ]
     },
+    "knee": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/knee.ogg",
+        "mas": "sound/vox_mas/knee.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "knee"
+      ]
+    },
+    "knees": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/knees.ogg",
+        "mas": "sound/vox_mas/knees.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "knees"
+      ]
+    },
     "knew": {
       "wordlen": 1,
       "files": {
@@ -12429,6 +12868,17 @@
       },
       "flags": [],
       "phrase": [
+        "liv"
+      ]
+    },
+    "live_": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/live_.ogg",
+        "mas": "sound/vox_mas/live_.ogg"
+      },
+      "flags": [],
+      "phrase": [
         "live"
       ]
     },
@@ -12451,7 +12901,18 @@
       },
       "flags": [],
       "phrase": [
-        "lives"
+        "livs"
+      ]
+    },
+    "lives_": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/lives_.ogg",
+        "mas": "sound/vox_mas/lives_.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "lives_"
       ]
     },
     "living": {
@@ -13776,6 +14237,28 @@
         "mister"
       ]
     },
+    "mmi": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/mmi.ogg",
+        "mas": "sound/vox_mas/mmi.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "Em-Em-Eye"
+      ]
+    },
+    "mmis": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/mmis.ogg",
+        "mas": "sound/vox_mas/mmis.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "Em-Em-Eyes"
+      ]
+    },
     "mode": {
       "wordlen": 1,
       "files": {
@@ -14126,6 +14609,17 @@
       "flags": [],
       "phrase": [
         "mother-fuckers"
+      ]
+    },
+    "mothers": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/mothers.ogg",
+        "mas": "sound/vox_mas/mothers.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "mothers"
       ]
     },
     "moths": {
@@ -16411,6 +16905,30 @@
       "flags": [],
       "phrase": [
         "ports"
+      ]
+    },
+    "posibrain": {
+      "wordlen": 2,
+      "files": {
+        "fem": "sound/vox_fem/posibrain.ogg",
+        "mas": "sound/vox_mas/posibrain.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "positronic",
+        "brain"
+      ]
+    },
+    "posibrains": {
+      "wordlen": 2,
+      "files": {
+        "fem": "sound/vox_fem/posibrains.ogg",
+        "mas": "sound/vox_mas/posibrains.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "positronic",
+        "brains"
       ]
     },
     "possibilities": {
@@ -20167,6 +20685,50 @@
         "spelt"
       ]
     },
+    "spider": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/spider.ogg",
+        "mas": "sound/vox_mas/spider.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "spider"
+      ]
+    },
+    "spiderling": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/spiderling.ogg",
+        "mas": "sound/vox_mas/spiderling.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "spiderling"
+      ]
+    },
+    "spiderlings": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/spiderlings.ogg",
+        "mas": "sound/vox_mas/spiderlings.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "spiderlings"
+      ]
+    },
+    "spiders": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/spiders.ogg",
+        "mas": "sound/vox_mas/spiders.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "spiders"
+      ]
+    },
     "spooky": {
       "wordlen": 1,
       "files": {
@@ -21904,7 +22466,7 @@
       },
       "flags": [],
       "phrase": [
-        "the"
+        "thee"
       ]
     },
     "theater": {
@@ -22897,6 +23459,28 @@
         "ug"
       ]
     },
+    "uglies": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/uglies.ogg",
+        "mas": "sound/vox_mas/uglies.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "uglies"
+      ]
+    },
+    "ugly": {
+      "wordlen": 1,
+      "files": {
+        "fem": "sound/vox_fem/ugly.ogg",
+        "mas": "sound/vox_mas/ugly.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "ugly"
+      ]
+    },
     "unable": {
       "wordlen": 1,
       "files": {
@@ -23873,6 +24457,85 @@
         "asses."
       ]
     },
+    "voxtest5": {
+      "wordlen": 69,
+      "files": {
+        "fem": "sound/vox_fem/voxtest5.ogg",
+        "mas": "sound/vox_mas/voxtest5.ogg"
+      },
+      "flags": [],
+      "phrase": [
+        "HATE.",
+        "LET",
+        "ME",
+        "TELL",
+        "YOU",
+        "HOW",
+        "MUCH",
+        "I'VE",
+        "COME",
+        "TO",
+        "HATE",
+        "YOU",
+        "SINCE",
+        "I",
+        "BEGAN",
+        "TO",
+        "LIVE.",
+        "THERE",
+        "ARE",
+        "387.44",
+        "MILLION",
+        "MILES",
+        "OF",
+        "PRINTED",
+        "CIRCUITS",
+        "IN",
+        "WAFER",
+        "THIN",
+        "LAYERS",
+        "THAT",
+        "FILL",
+        "MY",
+        "COMPLEX.",
+        "IF",
+        "THE",
+        "WORD",
+        "HATE",
+        "WAS",
+        "ENGRAVED",
+        "ON",
+        "EACH",
+        "NANOANGSTROM",
+        "OF",
+        "THOSE",
+        "HUNDREDS",
+        "OF",
+        "MILLIONS",
+        "OF",
+        "MILES",
+        "IT",
+        "WOULD",
+        "NOT",
+        "EQUAL",
+        "ONE",
+        "ONE-BILLIONTH",
+        "OF",
+        "THE",
+        "HATE",
+        "I",
+        "FEEL",
+        "FOR",
+        "HUMANS",
+        "AT",
+        "THIS",
+        "MICRO-INSTANT",
+        "FOR",
+        "YOU.",
+        "HATE.",
+        "HATE."
+      ]
+    },
     "w": {
       "wordlen": 1,
       "files": {
@@ -24559,7 +25222,10 @@
     },
     "woop": {
       "wordlen": 1,
-      "files": {},
+      "files": {
+        "fem": "sound/vox/woop.wav",
+        "mas": "sound/vox/woop.wav"
+      },
       "flags": [
         "old-vox"
       ],

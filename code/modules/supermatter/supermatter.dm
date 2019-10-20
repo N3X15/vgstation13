@@ -216,8 +216,7 @@
 			lastwarning = world.timeofday - offset
 
 		if(play_alert && (world.timeofday - lastaudiowarning) / 10 >= AUDIO_WARNING_DELAY)
-			for(var/sf in audio_sounds)
-				play_vox_sound(sf,current_zlevel,null)
+			play_vox_sounds(audio_sounds, current_zlevel, null)
 			lastaudiowarning = world.timeofday - audio_offset
 
 		if(damage > explosion_point)

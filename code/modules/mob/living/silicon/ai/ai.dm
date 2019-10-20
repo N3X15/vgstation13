@@ -458,7 +458,7 @@ var/list/ai_list = list()
 				to_chat(src, "<span class='notice'>Unable to locate the holopad.</span>")
 
 	if(href_list["say_word"])
-		play_vox_word(href_list["say_word"], vox_voice, null, src)
+		play_vox_words(list(href_list["say_word"]), vox_voice, null, src)
 		return
 
 	if(href_list["track"])

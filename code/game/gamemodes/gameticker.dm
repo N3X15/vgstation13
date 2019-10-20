@@ -237,6 +237,7 @@ var/datum/controller/gameticker/ticker
 //		world << sound('sound/AI/welcome.ogg')// Skie //Out with the old, in with the new. - N3X15
 
 		if(!config.shut_up_automatic_diagnostic_and_announcement_system)
+			// Sounds generated in ss13-vox (see https://github.com/N3X15/ss13-vox/blob/master/announcements.txt#L5)
 			var/welcome_sentence=list('sound/AI/vox_login.ogg')
 			welcome_sentence += pick(
 				'sound/AI/vox_reminder1.ogg',
@@ -253,9 +254,10 @@ var/datum/controller/gameticker/ticker
 				'sound/AI/vox_reminder12.ogg',
 				'sound/AI/vox_reminder13.ogg',
 				'sound/AI/vox_reminder14.ogg',
-				'sound/AI/vox_reminder15.ogg')
-			for(var/sound in welcome_sentence)
-				play_vox_sound(sound,STATION_Z,null)
+				'sound/AI/vox_reminder15.ogg'
+				'sound/AI/vox_reminder16.ogg'
+				)
+			play_vox_sounds(welcome_sentence, STATION_Z, null)
 		//Holiday Round-start stuff	~Carn
 		Holiday_Game_Start()
 		//mode.Clean_Antags()

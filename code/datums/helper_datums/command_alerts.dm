@@ -29,14 +29,14 @@
 
 	..()
 
+	// Sounds generated in SS13-VOX.  See: https://github.com/N3X15/ss13-vox/blob/master/announcements.txt#L34
 	var/list/vox_sentence=list(
-	'sound/AI/outbreak_before.ogg',
-	outbreak_level_words[level],
-	'sound/AI/outbreak_after.ogg',
+		'sound/AI/outbreak_before.ogg',
+		outbreak_level_words[level],
+		'sound/AI/outbreak_after.ogg',
 	)
 
-	for(var/word in vox_sentence)
-		play_vox_sound(word,STATION_Z,null)
+	play_vox_sounds(vox_sentence, STATION_Z, null)
 
 /datum/command_alert/biohazard_alert/minor
 	level_max = 4
@@ -594,4 +594,3 @@ The access requirements on the Asteroid Shuttles' consoles have now been revoked
 /datum/command_alert/omega_blizzard
 	alert_title = "Urgent Warning - Omega Blizzard"
 	message = "Automated meteorological warning alert: rapid formation of a powerful blizzard has been detected near your station. This formation is projected to last at least four months. Station safety procedures are in full effect, and command should determine whether evacuation is necessary."
-
